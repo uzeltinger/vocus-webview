@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion 29
+	buildToolsVersion '29.0.0'
+	defaultConfig {
+		applicationId 'vocus.webview'
+		minSdkVersion 21
+		targetSdkVersion 29
+		versionCode 4
+		versionName '4'
+		testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+		multiDexEnabled true
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+	productFlavors {
+	}
+}
+
+dependencies {
+	implementation fileTree(include: ['*.jar'], dir: 'libs')
+	androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+	implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+	implementation 'androidx.appcompat:appcompat:1.0.2'
+	testImplementation 'junit:junit:4.12'
+	implementation 'com.google.android.gms:play-services-auth:17.0.0'
+	implementation 'com.google.android.gms:play-services-location:17.0.0'
+}
