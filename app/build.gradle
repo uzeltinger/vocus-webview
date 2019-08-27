@@ -7,8 +7,8 @@ android {
 		applicationId 'vocus.webview'
 		minSdkVersion 21
 		targetSdkVersion 29
-		versionCode 4
-		versionName '4'
+		versionCode 11
+		versionName '1.1'
 		testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 		multiDexEnabled true
 	}
