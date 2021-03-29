@@ -25,17 +25,17 @@ class SmartWebView {
 	static boolean ASWP_ONLYCAM	     = false;
 
 	// upload multiple files in webview
- 	static boolean ASWP_MULFILE     = true;
+ 	static boolean ASWP_MULFILE     = false;
 
 	// track GPS locations
 	static boolean ASWP_LOCATION    = true;
 
 	// show ratings dialog; auto configured
 	// edit method get_rating() for customizations
-	static boolean ASWP_RATINGS     = true;
+	static boolean ASWP_RATINGS     = false;
 
 	// pull refresh current url
-	static boolean ASWP_PULLFRESH	 = true;
+	static boolean ASWP_PULLFRESH	 = false;
 
 	// show progress bar in app
 	static boolean ASWP_PBAR        = true;
@@ -44,13 +44,13 @@ class SmartWebView {
 	static boolean ASWP_ZOOM        = false;
 
 	// save form cache and auto-fill information
-	static boolean ASWP_SFORM       = false;
+	static boolean ASWP_SFORM       = true;
 
 	// whether the loading webpages are offline or online
 	static boolean ASWP_OFFLINE     = false;
 
 	// open external url with default browser instead of app webview
-	static boolean ASWP_EXTURL      = true;
+	static boolean ASWP_EXTURL      = false;
 
 
 	/* -- SECURITY VARIABLES -- */
@@ -62,7 +62,7 @@ class SmartWebView {
 	/* -- CONFIG VARIABLES -- */
 
 	//complete URL of your website or offline webpage
-	static String ASWV_URL          = "http://vocus.com.ar";
+	static String ASWV_URL          = "https://kanvas.koding.co.za/var/apps/browser/index-prod.html#/overview";
 
 	//to upload any file type using "*/*"; check file type references for more
 	static String ASWV_F_TYPE       = "*/*";
