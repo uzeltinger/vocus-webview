@@ -16,13 +16,13 @@ class SmartWebView {
 	static boolean ASWP_JSCRIPT     = true;
 
 	// upload file from webview
-	static boolean ASWP_FUPLOAD     = true;
+	static boolean ASWP_FUPLOAD     = false;
 
 	// enable upload from camera for photos
-	static boolean ASWP_CAMUPLOAD   = true;
+	static boolean ASWP_CAMUPLOAD   = false;
 
 	// incase you want only camera files to upload
-	static boolean ASWP_ONLYCAM	     = false;
+	static boolean ASWP_ONLYCAM	= false;
 
 	// upload multiple files in webview
  	static boolean ASWP_MULFILE     = false;
